@@ -7,7 +7,7 @@ import HelloWorld from './components/HelloWorld.vue'
     <a href="https://vite.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
-    <h2>加入ESLint Vitest檢查</h2>
+    <h2>加入ESLint Vitest檢查 建立新的分支</h2>
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
