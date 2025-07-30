@@ -20,7 +20,15 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        # 新增：跑 ESLint 檢查
+      - name: Run ESLint
+        run: npm run lint
 
+      # 新增：跑 Vitest 單元測試
+      - name: Run Vitest
+        run: npm run test
+
+      # 如果上面都通過才會繼續 build & deploy
       - name: Build project
         run: npm run build
 
